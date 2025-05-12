@@ -9,7 +9,6 @@ In addition to automated deployment, it monitors the server’s status to ensure
 The system supports:
 - Automatic website deployment via Git
 - Log generation
-- Email notifications in case of backup failures
 
 ---
 
@@ -24,21 +23,20 @@ The system supports:
 ## Usage
 1. Clone the repository to your server
 ```
-git clone https://github.com/your-username/AutoDeploy-Server.git
+git clone https://github.com/NicoMB2002/AutoDeploy-Server.git
 cd AutoDeploy-Server
 ```
 2. Install the necessary dependencies
-  Make sure you have ``bash``, ``git``, ``nginx`` and ``sendmail`` (or an equivalent mail service) installed.
+  Make sure you have ``bash``, ``git`` and ``nginx`` installed.
   You can install them using your system's package manager if they are missing:
 ```
 sudo apt update
-sudo apt install git bash sendmail nginx 
+sudo apt install -y git bash nginx 
 ```
 3. Configure your project settings:
   Update the configuration files (coming soon) to match your server setup, including:
   - Git repository URL
   - Deployment directory
-  - Email settings for notifications
 4. Start the AutoDeploy server:
   Run the main deployment script (bash script will be provided soon) to begin
   monitoring the Git repository and automating deployments:
