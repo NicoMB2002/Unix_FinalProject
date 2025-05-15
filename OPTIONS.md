@@ -23,4 +23,4 @@ Initially we didn't know which opion would be best, but since we were searching 
 
 ## Domain Names
 
-
+We purchased the domain autodeploy-server.xyz for this project. It was registered through Porkbun.com, and it is currently pointed to our VPS hosted on LunaNode.
