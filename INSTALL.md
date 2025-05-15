@@ -65,7 +65,7 @@ sudo ufw status
 ## Third
 Purchase/Use a domain name from a domain registrar of your choice (e.g., Namecheap, gandi , Porkbun). Once purchased, configure the DNS settings to point to your VPS’s IP address. This allows your website to be accessible using your custom domain instead of just an IP address.
 
-* *If you're using a service like Cloudflare, you can also take advantage of free DNS management, CDN features, and basic DDoS protection.* *
+*If you're using a service like Cloudflare, you can also take advantage of free DNS management, CDN features, and basic DDoS protection.*
 
 ## Forth
 Connect and enable Auto-Pulling from GitHub Using SSH
